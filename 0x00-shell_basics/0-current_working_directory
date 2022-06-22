@@ -1,10 +1,2 @@
 #!/bin/bash
-
-path=$(realpath $0)
-
-#echo $path
-
-DIR_PATH=$(dirname $path)
-
-echo $DIR_PATH
-
+echo $(realpath $0)
